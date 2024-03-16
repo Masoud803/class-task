@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {box-sizing: border-box;}
+        body{
+            background-color: rgb(39, 63, 77);
+            color: aliceblue;
+        }
+        form{
+            text-align: center;
+        }
+        .input-box{
+            width: 100%;
+            margin-bottom: 2%;
+        }
+        .icon{
+            padding: 13px;
+            background: dodgerblue;
+            color: white;
+            max-width: 10%;
+            text-align: center;
+        }
+        .input-field{
+            width: 30%;
+            padding: 13px;
+            outline: none;
+        }
+        .input-field:focus {
+            border: 2px solid dodgerblue;
+        }
+        .btn{
+            background-color: white;
+            color: black;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            width: 30%;
+            opacity: 0.9;
+        }
+        .btn:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+        <form>
+            <h1>User Login</h1>
+            <div class="input-box">
+                <i class="fa fa-user icon"><img src="./icons/username.png" alt="username">
+                </i>
+                <input class="input-field" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="input-box">
+                <i class="fa fa-key icon"><img src="./icons/password.png" alt="password"></i>
+                <input class="input-field" id="password" type="password" name="password" placeholder="password">
+            </div>
+            <div>
+                <button type="submit" Class="btn"> Login </button>
+            </div>
+        </form>
+</body>
+</html>
