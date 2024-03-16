@@ -3,62 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>LOGIN</title>
     <style>
-        * {box-sizing: border-box;}
         body{
-            background-color: rgb(39, 63, 77);
+            background-image: url(./Images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
             color: aliceblue;
-        }
-        form{
-            margin-top: 10%;
+            margin-left: 23%;
+            margin-top: 12%;
             text-align: center;
+            width: 700px;
+            height: 300px;
         }
-        .input-box{
-            width: 100%;
-            margin-bottom: 2%;
+        ::placeholder{
+            color: black;
+            opacity: 1;
         }
-        .icon{
-            padding: 13px;
-            background: dodgerblue;
+        .icon1 {
+            border: 2px solid gray;
             color: white;
-            max-width: 10%;
-            text-align: center;
-        }
-        .input-field{
-            width: 30%;
+            width: 40%;
             padding: 13px;
-            outline: none;
+            padding-left: 25px;
+            background: url("./Images/user.png") no-repeat left;
+            background-size: 20px;
+        }
+        .icon2 {
+            border: 2px solid gray;
+            color: white;
+            width: 40%;
+            padding: 13px;
+            padding-left: 25px;
+            background: url("./Images/password.png") no-repeat right;
+            background-size: 20px;
         }
         .btn{
-            background-color: white;
-            color: black;
-            padding: 15px 20px;
-            border: none;
-            cursor: pointer;
-            width: 34%;
-            opacity: 0.9;
-        }
-        .btn:hover{
-            opacity: 1;
+            background-color: rgb(145, 145, 145);
+            border: 2px solid gray;
+            font-size: x-large;
+            width: 46%;
+            padding: 5px;
         }
     </style>
 </head>
 <body>
+    <div>
         <form>
-            <h1>User Login</h1>
-            <div class="input-box">
-                <i class="fa fa-user icon"><img src="./icons/user.png" alt="username" width="20px" height="20px">
-                </i>
-                <input class="input-field" type="text" name="username" placeholder="Username">
-            </div>
-            <div class="input-box">
-                <i class="fa fa-key icon"><img src="./icons/password.png" alt="password" width="20px" height="20px"></i>
-                <input class="input-field" id="password" type="password" name="password" placeholder="password">
-            </div>
-            <div>
-                <button type="submit" Class="btn"> Login </button>
-            </div>
+            <h1>USER LOGIN</h1>
+            <input type="text" class="icon1" placeholder="Username" maxlength="25">
+            <br><br>
+            <input type="password" class="icon2" placeholder="Password" maxlength="25">
+            <br><br><br><br>
+            <button type="submit" class="btn">LOGIN</button>
         </form>
+    </div>
 </body>
 </html>
