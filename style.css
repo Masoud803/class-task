@@ -2,7 +2,7 @@ body{
     color: #ffffff;
     background-image: url(./Images/interior-background.jpg);
     background-size: cover;
-    background-repeat:no-repeat:
+    background-repeat:no-repeat;
 }
 header{
     overflow: hidden;
