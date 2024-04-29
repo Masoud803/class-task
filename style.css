@@ -4,64 +4,78 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
 }
+.wrapper{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 header{
+    width: 99%;
     overflow: hidden;
+    display: block;;
     padding: 10px 10px;
 }
 #logo{
+    width: 220px;
+    height: 50px;
     display: inline-block;
     margin: auto;
 }
 ul{
     display: inline-block;
     list-style: none;
-    float: right;
+    margin-left: 400px;
 }
 li{
     text-align: center;
+    font-size: large;
     float: left;
-    padding-left: 40px;
-    margin: auto;
+    padding-left: 30px;
 }
 li a{
     text-decoration: none;
+    color: #ffffff;
 }
 a:visited{
     color: #ffffff;
 }
 a:hover{
     color:#58a86c ;
+    text-decoration: 3px solid underline #58a86c;
 }
 section{
-    width: auto;
+    width: 100%;
+    height: auto;
     display: block;
-
 }
 article{
+    width: auto;
+    height: auto;
     text-align: center;
     display: block;
     margin-top: 100px;
 }
 #mainh1{
+    width: 50%;
     font-size: 60px;
-    margin-top: 10px;
-    margin-bottom: auto;
+    margin: auto;
 }
 p{
-    width: 500px;
+    width: 40%;
     margin-left: 400px;
     margin-bottom: 20px;
     font-size: large;
 }
 .maina{
-    border: 2px solid #58a86c;
+    border: 2px solid #529262;
+    background-color: #529262;
     border-radius: 50px;
     text-decoration: none;
     margin: 10px;
     padding: 10px 40px;
 }
 .maina:hover{
-    background-color: #58a86c;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
 }
